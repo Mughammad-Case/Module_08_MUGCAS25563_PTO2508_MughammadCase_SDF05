@@ -7,10 +7,16 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <footer class="bg-[#659f8f] rounded-sm font-['Arial'] text-gray-800">
-      <div class="container px-6 py-12 mx-auto">
-        <div class="grid">
-          <h3>Subscribe to our newsletter for updates.</h3>
+    <footer
+      class="bg-[#659f8f] rounded-sm font-['Arial'] text-[#313131] py-16 px-10"
+    >
+      <div class="max-w-7xl grid md:grid-cols-4 items-start">
+        
+        <!-- Grid Column 1: Newsletter Section -->
+        <div>
+          <h3 class="font-bold text-lg">
+            Subscribe to our newsletter for updates.
+          </h3>
           <form class="sm:col-span-2">
             <input type="email" placeholder="Email Address" />
             <button type="submit" class="w-full px-6 py-2.5 bg-white">
@@ -18,6 +24,7 @@
             </button>
           </form>
         </div>
+
         <div>
           <div>
             <p class="text-[#313131]">Quick Link</p>
